@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQR CESDE</title>
+	<!-- <link rel="stylesheet" href="formulario.css"> -->
+	 <!-- <link rel="stylesheet" href="formulariotailwind.css"> -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="icon" href="img/favicon.ico" sizes="32x32">
+
+
+</head>
+<body class="stiloBody bg-neutral-50  p-0 text-black" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+ 
+	<header class="relative leading-[1.6] bg-gradient-to-r from-pink-600 to-slate-300 text-center p-8 shadow-lg grid ">
+
+		
+		<img class="stiloImagen absolute top-5 left-5 w-24 h-auto rounded-lg  " style="box-shadow: 4px 4px 16px rgba(240, 236, 236, 0.959);" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLMO2rJQ-D34ki9Vu_SCL-BL-TOpVEHM6tQ&s" alt="logo">
+       
+		<h1 class="stiloH1 font-bold uppercase text-white mt-0 pl-32 text-[2.5em]" style=" text-shadow: 0 3px 0 rgba(65, 64, 64, 0.5);">Crea tu PQRSF llenando el formulario</h1>
+      
+        
+      </header>
+	<main class="stiloMain max-w-3xl m-auto  bg-white p-7  rounded-xl  mt-5" style=" box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);">
+		
+		<p class="estiloParrafoMain  mb-6 text-gray-600  text-[1.2em] leading-[1.8]">En este espacio podras tener una comunicacion directa de forma <Strong>Anonima</Strong> con la administracion del instituto tecnico CESDE  de la sede Bello.</p>
+
+		<form >
+			<div class="formulario  ">
+
+				
+				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" >¿Acepta la <strong>Política de tratamiento y protección de datos personales</strong> de la
+					institución?</label>
+
+				<a href="https://www.cesde.edu.co/wp-content/uploads/2023/08/Politica-Proteccion-Datos-Personales-Agosto-2023-PDF.pdf">
+						Ver política
+					</a>
+
+				<div class="politica flex gap-5 mt-3.5 items-center  " >
+					<input type="radio" id="acepta_si" name="terminos" value="si"  required > 
+					<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" style="transform: scale(1.2);"  for="acepta_si">Sí</label>
+
+					<input  type="radio" id="acepta_no" name="terminos" value="no" >
+					<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" style="transform: scale(1.2);"  for="acepta_no">No</label>
+				</div>
+
+               
+            
+                
+				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="correo">Correo electrónico</label>
+				<input  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em]" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" type="email" id="correo" name="correo"  placeholder="Ingrese su respuesta" required>
+                
+				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="telefono">Teléfono</label>
+				<input  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em]" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" type="tel" id="telefono" name="telefono"  placeholder="Ingrese su respuesta" required>
+                
+				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="tipo-pqr">Tipo de PQR</label>
+
+				<select  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em]" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" id="tipo-pqr" name="tipo-pqr" required>
+					<option value="">Seleccione su respuesta</option>
+					<option value="petición">Petición</option>
+					<option value="queja">Queja</option>
+                    <option value="reclamo">Reclamo</option>
+                    <option value="reclamo">Sugerencias</option>
+                    <option value="reclamo">Felicitaciones</option>
+				</select>
+
+				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="descripcion">Descripción</label>
+				
+				<textarea  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em] min-h-[150px] resize-y" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" id="descripcion" name="descripcion"  placeholder="Ingrese su respuesta" required></textarea>
+				
+				<div class="contenedor_enviar flex gap-6  justify-center ">
+					<button class="stiloBoton  text-white bg-slate-600 cursor-pointer rounded-lg 
+					mt-[10px] text-[1.2em] font-bold py-3 px-[29px] hover:bg-pink-600" style="  transition: background-color 0.3s ease;" type="submit">Enviar</button> 
+					<button class="stiloBoton2  text-white bg-slate-600 cursor-pointer rounded-lg 
+					mt-[10px] text-[1.2em] font-bold py-3 px-[20px] hover:bg-pink-600"  style="  transition: background-color 0.3s ease;" type="reset">Resetear</button>
+				</div>
+			</div>
+
+			<div>
+				
+			</div>
+		</form>
+	</main>
+	<footer class="bg-slate-600 text-white text-center p-5 text-[1em] rounded-none mt-5" style="box-shadow: 0 -6px 15px rgba(0, 0, 0, 0.1);">
+		<p class="mt-1 mb-1 leading-[1.4]"> Institución educativa Dg. 50A #38 20 Piso 5 · 316 3546617</p>
+	</footer>
+	
+
+    
+    
+</body>
+</html>
+

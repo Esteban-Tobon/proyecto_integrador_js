@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de adminitrador</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img/favicon.ico" sizes="32x32">
+
+</head>
+<body class="stiloBody flex flex-col space-y-64  justify-center items-center bg-gradient-to-r from-pink-600 ">
+    
+  <header class="text-gray-600 body-font bg-pink-600 h-10 font-sans w-full">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center pt-0">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+            <!-- Imagen con borde redondeado -->
+            <img class="scale-75 mb-52 py-0  px-0  shadow-2xl rounded-lg border-2 border-white                 "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLMO2rJQ-D34ki9Vu_SCL-BL-TOpVEHM6tQ&s"
+                alt="Logo Cesde" class="logo">
+
+            <span class="mb-60 text-[30px] font-extrabold text-white drop-shadow-xl">Inicio de sesion PQRSF CESDE</span>
+        </a>
+    </div>
+</header>
+
+    <div class="flex min-h-24 w-6/12  justify-center px-6 py-12 lg:px-8 bg-white rounded-lg">
+        <div class="mt-20 sm:mx-auto sm:w-full sm:max-w-sm">
+          <img class="mx-auto h-10 w-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3tle4rGnCf0wh7iViUsmeQmI77jE-7AnhOA&s" alt="Cesde logo">
+          <h2 class="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Inicio de Sesíon</h2>
+        </div>
+      
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+          <form class="space-y-6" >
+            <div>
+              <label for="email" class="block text-sm/6 font-medium text-gray-900">Email </label>
+              <div class="mt-2">
+                <input  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pink-600  sm:text-sm/6" type="email" id="email" name="email" required>
+              </div>
+            </div>
+      
+            <div>
+              <div class="flex items-center justify-between">
+                <label for="password" class="block text-sm/6 font-medium text-gray-900"  >Contraseña</label>
+                
+              </div>
+              <div class="mt-2">
+                <input  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pink-600  sm:text-sm/6" type="password" id="password" name="password" required>
+              </div>
+            </div>
+            
+            <div>
+             
+              <a href="gestionPQRSF.html" class="flex w-full justify-center rounded-md bg-gray-600 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-600 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-pink-600">
+                Inicio de Sesión
+            </a>
+            </div>
+          
+          </form>
+      
+          <div class="text-sm  mt-4">
+            <a href="#" class="font-semibold text-gray-600 hover:text-black-500">Recuperar contraseña</a>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
